@@ -1,0 +1,26 @@
+{
+  "tests": "./tests/*.test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "https://jumpcut.com/enroll/hdvvxks",
+      "browser": "chrome",
+      "windowSize": "maximize"
+    }
+  },
+  "include": {
+    "I": "./custom_steps.js",
+    "landingPage": "./pages/landing.js",
+    "loginPage": "./pages/login.js",
+    "registerPage": "./pages/register.js"
+  },
+  "plugins": {
+    "stepByStepReport": {
+      "enabled": true
+    }
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "webdriverio-codeceptjs-example"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "webdriverio-codeceptjs-example",
+  "version": "1.0.0",
+  "description": "Test automation example with codeceptjs and webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\codeceptjs run --steps"
+  },
+  "dependencies": {
+    "@wdio/sync": "^5.4.6",
+    "codeceptjs": "^2.0.4",
+    "selenium-server": "^3.141.59",
+    "unique-string": "^1.0.0",
+    "webdriverio": "^5.4.7"
+  }
+}
